@@ -1,0 +1,31 @@
+.header {
+  background-color: $color-dark;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.menu-item {
+font-weight: 700;
+font-size: 14px;
+line-height: 24px;
+color: $color-light;
+}
+
+.header-inner {
+@include inner
+}
+
+.header-wrap {
+  display: flex;
+  align-items: center;
+}
+
+.main-logo {
+  margin-right: auto;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 57px;
+}

@@ -1,0 +1,27 @@
+.product {
+padding-top: 200px;
+padding-bottom: 214px;
+}
+
+.product-inner {
+  @include inner
+}
+
+.product-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.product-title {
+font-family: $font-open;
+font-weight: 600;
+font-size: 72px;
+line-height: 98px;
+text-align: center;
+}
+
+.product-order {
+  @include button-design
+}
+
+

@@ -1,0 +1,24 @@
+@mixin inner {
+  width: 1276px;
+  margin: 0 auto;
+  border: 1px solid #f00;
+}
+
+@mixin section-title {
+font-weight: 400;
+font-size: 64px;
+line-height: 87px;
+font-family: $font-open;
+color: $color-dark;
+}
+
+@mixin button-design {
+min-width: 497px;
+background: #FF2D2D;
+border-radius: 6px;
+font-family: $font-open;
+font-weight: 400;
+font-size: 42px;
+line-height: 57px;
+}
+

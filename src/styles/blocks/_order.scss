@@ -1,0 +1,11 @@
+.order-inner {
+  @include inner
+}
+
+.order-title {
+  @include section-title
+}
+
+.order-btn {
+  @include button-design
+}
