@@ -1,11 +1,50 @@
+.order {
+  // width: 1440px;
+  background-color: rgba(51, 51, 51, 0.1);
+}
+
 .order-inner {
   @include inner
+
+
 }
 
 .order-title {
-  @include section-title
+  @include section-title;
+  padding-top: 130px;
+}
+
+.order-desc {
+  padding-top: 40px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 38px;
 }
 
 .order-btn {
   @include button-design
+}
+
+.form {
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 130px;
+
+}
+
+.form-field {
+  padding: 20px;
+}
+
+.form-field-half {
+flex-basis: 33.33%;
+}
+
+// .form-field-half {
+//   flex-basis: 50%;
+// }
+
+.form-label {
+display: inline-block;
 }

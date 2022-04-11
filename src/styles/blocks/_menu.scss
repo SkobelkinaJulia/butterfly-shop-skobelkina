@@ -1,0 +1,29 @@
+.menu {
+    // position: absolute;
+    // top: 100%;
+    // left: 0;
+    // display: none;
+    // width: 100%;
+    // padding: 20px;
+    // background-color: $color-dark;
+    // border-top: 1px solid $color-light;
+    padding-right: 84px;
+
+  ul {
+    display: flex;
+    list-style: none;
+  }
+  li {
+    margin: 0 15px;
+    }
+
+  a {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: $color-light;
+    text-decoration: none;
+    padding: 10px;
+    }
+  }
+

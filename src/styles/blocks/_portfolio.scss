@@ -1,8 +1,46 @@
+.portfolio {
+  // width: 1440px;
+  padding-top: 130px;
+  padding-bottom: 130px;
+
+}
+
 .portfolio-inner {
   @include inner
 }
 
 .portfolio-title {
-  @include section-title
+  @include section-title;
+  padding-bottom: 100px;
+}
+
+.portfolio-photo-wrap{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 120px;
+}
+
+.portfolio-figure {
+  position: relative;
+  }
+
+.portfolio-photo-desc {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33px;
+  color: $color-light;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.portfolio-btn {
+  @include button-design;
+  display: inline-block;
+  text-align: center;
+
 }
 
