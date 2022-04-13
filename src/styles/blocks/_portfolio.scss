@@ -18,10 +18,32 @@
   display: flex;
   justify-content: space-between;
   padding-bottom: 120px;
+
+  @media (max-width: $tablet-max) {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 80px;
+
+
+  }
+
+  @media (max-width: $mobile-max) {
+    display: block;
+    padding-bottom: 60px;
+
+  }
 }
 
 .portfolio-figure {
   position: relative;
+
+  @media (max-width: $tablet-max) {
+    flex-basis: 50%;
+  }
+
+  @media (max-width: $mobile-max) {
+    width: 100%;
+  }
   }
 
 .portfolio-photo-desc {
