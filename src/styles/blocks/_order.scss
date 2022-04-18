@@ -38,17 +38,30 @@
 
 .form {
   display: flex;
-  align-items: flex-end;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 66.66%;
+  // align-items: flex-end;
   padding-bottom: 130px;
+  margin-top: 90px;
 
+}
+
+.form-input {
+  padding: (35px 157px 35px 30px);
+
+  margin-top: 8px;
+  margin-left: 20px;
 }
 
 .form-field {
   padding: 20px;
+
 }
 
 .form-field-half {
-flex-basis: 33.33%;
+width: 33.33%;
 }
 
 // .form-field-half {
