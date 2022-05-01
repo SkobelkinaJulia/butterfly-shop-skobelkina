@@ -1,3 +1,20 @@
+.footer {
+  background-color: $color-dark;
+  color: $color-light;
+  padding-top: 31px;
+  padding-bottom: 31px;
+  padding-left: 82px;
+}
+
+.footer-logo {
+  margin-right: auto;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 57px;
+  color: $color-light;
+  text-decoration: none;
+}
+
 .footer-inner {
   @include inner
 }
@@ -5,3 +22,5 @@
 .footer-wrap {
   display: flex;
 }
+
+

@@ -4,6 +4,10 @@
 @import "common/_common";
 @import 'common/_mixins';
 
+//plugins
+
+@import "plugins/slick";
+
 // blocks
 @import "blocks/_product";
 @import "blocks/_header";
@@ -13,3 +17,4 @@
 @import "blocks/_menu";
 @import "blocks/_contacts";
 @import "blocks/_catalog";
+@import "blocks/_reviews";
