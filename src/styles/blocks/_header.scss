@@ -1,40 +1,40 @@
 .header {
-  padding-bottom: 16px;
-  background-color: $color-dark;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 1000;
+    // padding-bottom: 16px;
+    background-color: $color-dark;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
 
   @media (max-width: $tablet-max) {
     padding: 20px 0;
   }
 }
 
-.menu-item {
-font-weight: 700;
-font-size: 14px;
-line-height: 24px;
-color: $color-light;
-}
+// .menu-item {
+//   font-weight: 700;
+//   font-size: 14px;
+//   line-height: 24px;
+//   color: $color-light;
+// }
 
 .header-inner {
-@include inner
+@include inner;
 }
 
 .header-wrap {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 .main-logo {
-  margin-right: auto;
-  font-weight: 600;
-  font-size: 42px;
-  line-height: 57px;
-  color: $color-light;
-  text-decoration: none;
+    margin-right: auto;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 57px;
+    color: $color-light;
+    text-decoration: none;
 
   @media (max-width: $tablet-max) {
     font-size: 36px;

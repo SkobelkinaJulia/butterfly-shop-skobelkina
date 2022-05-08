@@ -2,6 +2,7 @@
   // width: 1440px;
   padding-top: 130px;
   padding-bottom: 130px;
+  text-align: center
 
 }
 
@@ -14,10 +15,12 @@
   padding-bottom: 100px;
 }
 
-.portfolio-photo-wrap {
+.portfolio-list {
+  flex-wrap: wrap;
   display: flex;
-  justify-content: space-between;
   padding-bottom: 120px;
+  margin-left: -10px;
+  margin-right: -10px;
   // width: 100%;
 
   @media (max-width: $tablet-max) {
@@ -37,6 +40,10 @@
   }
 }
 
+.portfolio-item {
+  width: 25%;
+  padding: 10px;
+}
 .portfolio-figure {
   position: relative;
 
