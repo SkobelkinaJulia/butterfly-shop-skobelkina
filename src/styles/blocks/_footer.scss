@@ -3,7 +3,7 @@
   color: $color-light;
   padding-top: 31px;
   padding-bottom: 31px;
-  padding-left: 82px;
+  // padding-left: 82px;
 }
 
 .footer-logo {
@@ -16,11 +16,41 @@
 }
 
 .footer-inner {
-  @include inner
+  margin-right: 0;
+  display: flex;
+  @include inner;
+}
+
+.footer-phone {
+  color: $color-light;
+  text-decoration: none;
+  padding-right: 60px;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 38px;
 }
 
 .footer-wrap {
   display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.social {
+  display: flex;
+  list-style-type: none;
+}
+
+.social-link {
+  display: block;
+  width: 26px;
+  height: 26px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-left: 25px;
+  padding-right: 25px;
+
 }
 
 

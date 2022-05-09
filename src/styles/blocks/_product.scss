@@ -1,6 +1,4 @@
 .product {
-    padding-top: 200px;
-    padding-bottom: 214px;
     margin-top: 75px;
     text-align: center;
     color: $color-light;
@@ -13,15 +11,23 @@
     background-size: cover;
   }
 
+  .product-fade {
+    padding-bottom: 215px;
+    padding-top: 200px;
+    background-color:rgba(51, 51, 51, 0.4);
+
+  }
+
 .product-inner {
   @include inner;
 }
 
-// .product-wrap {
-//   display: flex;
-//   flex-wrap: wrap;
-//   justify-content: center;
-// }
+.product-btn {
+  text-decoration: none;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
 .product-title {
     font-weight: 600;
     font-size: 72px;
